@@ -14,9 +14,9 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 	}
 
-	@Bean //compomente para encriptamento de senha.
-	public PasswordEncoder getPasswordEncoder() {
-		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-		return encoder;
-	}
+//	@Bean //compomente para encriptamento de senha.
+//	public PasswordEncoder getPasswordEncoder() {
+//		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+//		return encoder;
+//	}
 }
